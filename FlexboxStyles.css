@@ -1,4 +1,7 @@
 /* margin all */
+.man {
+  margin: 0;
+}
 .maxxs {
   margin: 4px;
 }
@@ -25,6 +28,10 @@
 }
 
 /* margin horizontal */
+.mhn {
+  margin-left: 0;
+  margin-right: 0;
+}
 .mhxxs {
   margin-left: 4px;
   margin-right: 4px;
@@ -59,6 +66,10 @@
 }
 
 /* margin vertical */
+.mvn {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 .mvxxs {
   margin-top: 4px;
   margin-bottom: 4px;
@@ -93,6 +104,9 @@
 }
 
 /* margin top */
+.mtn {
+  margin-top: 0;
+}
 .mtxxs {
   margin-top: 4px;
 }
@@ -119,6 +133,9 @@
 }
 
 /* margin bottom */
+.mbn {
+  margin-bottom: 0;
+}
 .mbxxs {
   margin-bottom: 4px;
 }
@@ -145,6 +162,9 @@
 }
 
 /* margin right */
+.mrn {
+  margin-right: 0;
+}
 .mrxxs {
   margin-right: 4px;
 }
@@ -171,6 +191,9 @@
 }
 
 /* margin left */
+.mln {
+  margin-left: 0;
+}
 .mlxxs {
   margin-left: 4px;
 }
@@ -197,6 +220,9 @@
 }
 
 /* padding all */
+.pan {
+  padding: 0;
+}
 .paxxs {
   padding: 4px;
 }
@@ -223,6 +249,10 @@
 }
 
 /* padding horizontal */
+.phn {
+  padding-left: 0;
+  padding-right: 0;
+}
 .phxxs {
   padding-left: 4px;
   padding-right: 4px;
@@ -257,6 +287,10 @@
 }
 
 /* padding vertical */
+.pvn {
+  padding-top: 0;
+  padding-bottom: 0;
+}
 .pvxxs {
   padding-top: 4px;
   padding-bottom: 4px;
@@ -291,6 +325,9 @@
 }
 
 /* padding top */
+.ptn {
+  padding-top: 0;
+}
 .ptxxs {
   padding-top: 4px;
 }
@@ -317,6 +354,9 @@
 }
 
 /* padding bottom */
+.pbn {
+  padding-bottom: 0;
+}
 .pbxxs {
   padding-bottom: 4px;
 }
@@ -343,6 +383,9 @@
 }
 
 /* padding right */
+.prn {
+  padding-right: 0;
+}
 .prxxs {
   padding-right: 4px;
 }
@@ -369,6 +412,9 @@
 }
 
 /* padding left */
+.pln {
+  padding-left: 0;
+}
 .plxxs {
   padding-left: 4px;
 }
@@ -455,6 +501,9 @@
 .blue {
   background-color: blue;
 }
+.orange {
+  background-color: orange;
+}
 .green {
   background-color: green;
 }
@@ -470,6 +519,18 @@
 
 .flex {
   display: flex;
+}
+.none {
+  display: none;
+}
+.fixed {
+  position: fixed;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
 }
 .flexDirRow {
   display: flex;
@@ -624,4 +685,28 @@
 }
 .vh75 {
   height: 75vh;
+}
+.w100px {
+  width: 100px;
+}
+.h100px {
+  height: 100px;
+}
+.w200px {
+  width: 200px;
+}
+.h200px {
+  height: 200px;
+}
+.w200px {
+  width: 200px;
+}
+.h100px {
+  height: 100px;
+}
+.w300px {
+  width: 300px;
+}
+.h300px {
+  height: 300px;
 }
